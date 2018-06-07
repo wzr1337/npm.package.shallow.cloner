@@ -1,0 +1,37 @@
+{
+  "name": "npm.package.shallow.cloner",
+  "version": "0.0.1",
+  "description": "shallow clone all dependencies from a package.json and ignore sub dependencies",
+  "main": "dist/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "clone": "node dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzr1337/npm.package.shallow.cloner.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Dr. Patrick Bartsch <bartsch98+opensource@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wzr1337/npm.package.shallow.cloner/issues"
+  },
+  "homepage": "https://github.com/wzr1337/npm.package.shallow.cloner#readme",
+  "devDependencies": {
+    "@types/node": "^10.1.2",
+    "@types/rimraf": "^2.0.2",
+    "@types/semver": "^5.5.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "@types/command-line-args": "^5.0.0",
+    "command-line-args": "^5.0.2",
+    "get-repository-url": "^1.0.1",
+    "rimraf": "^2.6.2",
+    "semver": "^5.5.0"
+  }
+}
